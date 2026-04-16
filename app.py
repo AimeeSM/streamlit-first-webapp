@@ -10,3 +10,5 @@ age = st.slider(label="Enter the student's age:", min_value=0, max_value=100, va
 
 if st.button("Display", type="primary"):
     st.write(name + " has " + str(age) + "yo.")
+
+    
